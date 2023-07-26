@@ -1,6 +1,10 @@
 Installation:
 
-this is for debian and Mac, non debian distro may vary
+Note: This doesn't really work on Windows. If anyone can fix it please let me know. 
+
+
+
+Guide is for debian and Mac, non debian distro may vary
 
 navigate to home menu of your user on your machine:
 
