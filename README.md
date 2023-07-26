@@ -24,4 +24,4 @@ press page down repeatedly until you are at the bottom of the file
 
 /path/to/script/QOTD.sh
 
-Open a new terminal and see if the quote appears. Review installation steps if it does not. 
+Open a new terminal and see if the quote appears. Review installation steps if it does not or ask ChatGPT. 
