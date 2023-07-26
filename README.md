@@ -1,6 +1,6 @@
 Installation:
 
-this is for debian, other distros may vary
+this is for debian and Mac, non debian distro may vary
 
 navigate to home menu of your user on your machine:
 
@@ -19,6 +19,10 @@ Copy the output
 
 Enter in your home directory
 <code>nano .bashrc</code> 
+
+If on mac, 
+<code>nano ~/.bashrc</code>
+<code>nano ~/.bash_profile</code>
 
 press page down repeatedly until you are at the bottom of the file
 
