@@ -1,8 +1,10 @@
 Installation:
 
-Note: This doesn't really work on Windows. If anyone can fix it please let me know. 
+Note: Supported for Linux, Mac and Windows on PowerShell. Windows below Linux and Mac. 
 
-Guide is for debian and Mac, non debian distro may vary
+On windows, this script may make your computer more vulnerable to malware (scripts) so use with caution. You are liable for all outcomes. 
+
+This part of guide is for debian distros and Mac, non debian distro may vary. Windows below this one. 
 
 navigate to home menu of your user on your machine:
 
@@ -42,4 +44,18 @@ Open a new terminal and see if the quote appears. Review installation steps if i
 
 Windows:
 
-Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
+This only works in PowerShell. 
+
+<code>Test-Path $PROFILE</code>
+
+If output is "false"
+
+<code>New-Item -Type File -Path $PROFILE -Force</code>
+
+<code>Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser</code>
+
+<code>notepad $PROFILE</code>
+
+copy and paste the QOTD.ps1 script inside. 
+
+All done. 

@@ -1,1 +1,0 @@
-This program doesn't really work on Windows, if anyone can find a fix, please let me know. I have some files in this directory that may help. 
