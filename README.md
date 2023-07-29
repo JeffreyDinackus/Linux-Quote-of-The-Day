@@ -46,6 +46,8 @@ Windows:
 
 This only works in PowerShell. 
 
+note: this may make your computer more vulnerable to malware as on Windows 11 you are going from a setting where no scripts can be run, to running scripts as current user. Proceed with caution
+
 <code>Test-Path $PROFILE</code>
 
 If output is "false"
