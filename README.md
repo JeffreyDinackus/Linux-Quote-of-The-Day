@@ -1,8 +1,10 @@
 Installation:
 
-Note: This doesn't really work on Windows. If anyone can fix it please let me know. 
+Note: Supported for Linux, Mac and Windows on PowerShell. Windows below Linux and Mac. 
 
-Guide is for debian and Mac, non debian distro may vary
+On windows, this script may make your computer more vulnerable to malware (scripts) so use with caution. You are liable for all outcomes. 
+
+This part of guide is for debian distros and Mac, non debian distro may vary. Windows below this one. 
 
 navigate to home menu of your user on your machine:
 
@@ -38,3 +40,24 @@ If it is a hidden file:
 
 
 Open a new terminal and see if the quote appears. Review installation steps if it does not or ask ChatGPT. 
+
+
+Windows:
+
+This only works in PowerShell. 
+
+note: this may make your computer more vulnerable to malware as on Windows 11 you are going from a setting where no scripts can be run, to running scripts as current user. Proceed with caution
+
+<code>Test-Path $PROFILE</code>
+
+If output is "false"
+
+<code>New-Item -Type File -Path $PROFILE -Force</code>
+
+<code>Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser</code>
+
+<code>notepad $PROFILE</code>
+
+copy and paste the QOTD.ps1 script inside. 
+
+All done. 
