@@ -13,6 +13,6 @@ while true; do
     break # Exit the loop if a valid joke is fetched
   else
     echo "Failed to fetch a complete joke. Trying again..."
-    sleep 1 # Wait for 1 second before retrying
+    sleep 4 # Wait for 1 second before retrying
   fi
 done
