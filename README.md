@@ -1,4 +1,15 @@
-Installation:
+# Quote of the Day
+
+This project provides fun quotes and jokes to your terminal when you open your bash. 
+
+
+
+
+## Installation:
+
+
+> **Note**
+> for the savy, you just need to download the script, and add it to your .bashrc or other rc on Linux or mac.
 
 Note: Supported for Linux, Mac and Windows on PowerShell. Windows below Linux and Mac. 
 
@@ -42,7 +53,7 @@ If it is a hidden file:
 Open a new terminal and see if the quote appears. Review installation steps if it does not or ask ChatGPT. 
 
 
-Windows:
+### Windows:
 
 This only works in PowerShell. 
 
