@@ -16,7 +16,9 @@ This project provides fun quotes and jokes to your terminal when you open your b
 
 On windows, this script may make your computer more vulnerable to malware (scripts) so use with caution. You are liable for all outcomes. 
 
-This part of guide is for debian distros and Mac, non debian distro may vary. Windows below this one. 
+## Linux Install
+
+This part of guide is for debian distros and Mac, non debian distro may vary. The only real difference should be your .bashrc may be named differently on some distros I think. Windows below this one. 
 
 navigate to home menu of your user on your machine:
 
@@ -55,7 +57,7 @@ If it is a hidden file:
 Open a new terminal and see if the quote appears. Review installation steps if it does not or ask ChatGPT. 
 
 
-### Windows:
+## Windows Install
 
 This only works in PowerShell. 
 
