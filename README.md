@@ -20,28 +20,29 @@ This part of guide is for debian distros and Mac, non debian distro may vary. Wi
 
 navigate to home menu of your user on your machine:
 
-<code>touch QOTD.sh</code>
+> touch QOTD.sh
 
-<code>chmod +x QOTD.sh</code>
+> chmod +x QOTD.sh
 
-<code>nano QOTD.sh</code>
+> nano QOTD.sh
 
 This will make the script a hidden file on linux, may on mac too. I personally prefer this so I don't accidentally delete the script. Entirely optional. 
-<code>mv QOTD.sh .QOTD.sh</code>
+
+> mv QOTD.sh .QOTD.sh
 
 Copy script from github and paste inside then return here. QOTD.sh in this project. 
 
 Press control + X then control + M to save
 
-<code>pwd</code>
+> pwd
 Copy the output
 
 Enter in your home directory
-<code>nano .bashrc</code> 
+> nano .bashrc 
 
 If on mac, 
-<code>nano ~/.bashrc</code>
-<code>nano ~/.bash_profile</code>
+> nano ~/.bashrc
+> nano ~/.bash_profile
 
 press page down repeatedly until you are at the bottom of the file
 
@@ -60,15 +61,15 @@ This only works in PowerShell.
 
 note: this may make your computer more vulnerable to malware as on Windows 11 you are going from a setting where no scripts can be run, to running scripts as current user. Proceed with caution
 
-<code>Test-Path $PROFILE</code>
+> Test-Path $PROFILE
 
 If output is "false"
 
-<code>New-Item -Type File -Path $PROFILE -Force</code>
+> New-Item -Type File -Path $PROFILE -Force
 
-<code>Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser</code>
+> Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
 
-<code>notepad $PROFILE</code>
+> notepad $PROFILE
 
 copy and paste the QOTD.ps1 script inside. 
 
