@@ -11,7 +11,8 @@ This project provides fun quotes and jokes to your terminal when you open your b
 > **Note**
 > for the savy, you just need to download the script, and add it to your .bashrc or other rc on Linux or mac.
 
-Note: Supported for Linux, Mac and Windows on PowerShell. Windows below Linux and Mac. 
+> **Note**
+> Supported for Linux, Mac and Windows on PowerShell. Windows install below Linux and Mac. Windows and Mac had not been tested. 
 
 On windows, this script may make your computer more vulnerable to malware (scripts) so use with caution. You are liable for all outcomes. 
 
